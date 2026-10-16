@@ -1,0 +1,22 @@
+{
+  "name": "bella-moda-chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot de atención al cliente con IA para microempresas - caso Bella Moda (ADSO SENA)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "crear-admin": "node scripts/crear_admin.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.60.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.0"
+  }
+}
